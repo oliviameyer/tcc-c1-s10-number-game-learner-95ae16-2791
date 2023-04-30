@@ -26,15 +26,21 @@ while user_guess := True
     attempts += 1
 
     # Check the user answer againt the secret number
- user_guess = True
-
-    if user_guess:
-    print("The answer is correct!")
-
-    number = input("Type a number: ")
+    if answer_number == random_number:
+        user_guess = True
+    elif answer_number > random_number:
+    print("The correct answer is smaller!")
+    else:
+    print("The correct answer is bigger!")
+     
 # Get the spelling of the "attempt" word
+if attempts == 1:
+attempt_spell = "attempt"
+else:
+attempt_spell = "attempts"
 
 # Display the result
+print("Print the answer is correct")
 
 
 

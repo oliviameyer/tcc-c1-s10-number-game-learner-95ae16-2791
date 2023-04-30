@@ -35,10 +35,10 @@ while user_guess := True:
          print("The correct answer is bigger!")
      
 # Get the spelling of the "attempt" word
-if attempts == 1:
-    attempt_spell = "attempt"
-else:
-    attempt_spell = "attempts"
+    if attempts == 1:
+        attempt_spell = "attempt"
+    else:
+        attempt_spell = "attempts"
 
 # Display the result
 print("You won the answer is correct")

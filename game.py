@@ -5,7 +5,7 @@ user_guess = False
 attempts = 0 
 
 # Game loop
-while user_guess := True:
+while user_guess != True:
 
     # Get user input
     answer = input ("enter a number btw 1 and 100")

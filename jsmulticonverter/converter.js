@@ -42,7 +42,7 @@
     var conversionType = whatConversion();
     var conversionValue = inputValue();
     var resultMessage = "The result is ";
-    var result = 0;
+    
     
     if(conversionType == "euros") {
         resultMessage += chfEur(Number(conversionValue)).toString;
